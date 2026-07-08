@@ -28,7 +28,6 @@ Sistem Informasi Manajemen Tiket (SIM-Tiket) berbasis **Hybrid Retrieval-Augment
    
 3. **Jalankan Ollama:**
    ```bash
-   Pastikan Ollama terinstall dan model Qwen2.5 sudah terunduh:
    ollama pull qwen2.5:1.5b
    ollama serve
 

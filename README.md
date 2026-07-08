@@ -21,17 +21,17 @@ Sistem Informasi Manajemen Tiket (SIM-Tiket) berbasis **Hybrid Retrieval-Augment
    ```bash
    git clone [https://github.com/Asepnrhdyt/Cakrawala-AI-Helpdesk.git](https://github.com/Asepnrhdyt/Cakrawala-AI-Helpdesk.git)
    cd Cakrawala-AI-Helpdesk
-   Install dependensi:
 
-Bash
-pip install -r requirements.txt
-Jalankan Ollama:
-Pastikan Ollama terinstall dan model Qwen2.5 sudah terunduh:
+2. **Install Depedensi:**
+   ```bash
+   pip install -r requirements.txt
+   
+3. **Jalankan Ollama:**
+   ```bash
+   Pastikan Ollama terinstall dan model Qwen2.5 sudah terunduh:
+   ollama pull qwen2.5:1.5b
+   ollama serve
 
-Bash
-ollama pull qwen2.5:1.5b
-ollama serve
-Jalankan Aplikasi:
-
-Bash
-streamlit run app.py
+4. **Jalankan Aplikasi:**
+   ```bash
+   streamlit run app.py

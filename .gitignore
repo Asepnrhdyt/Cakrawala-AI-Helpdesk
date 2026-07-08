@@ -1,0 +1,10 @@
+# Database
+*.db
+
+# Chat History
+chat_history/
+
+# Environment / Cache (Optional tapi disarankan)
+__pycache__/
+.env
+.DS_Store
